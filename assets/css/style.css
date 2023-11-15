@@ -385,7 +385,7 @@ h6 {
 # Hero Section
 --------------------------------------------------------------*/
 #hero {
-  background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url("../img/ATL1.jpg") fixed center center;
+  background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url("../img/ATL1.JPG") fixed center center;
   background-size: cover;
   padding: 120px 0;
 }
@@ -405,7 +405,7 @@ h6 {
 #hero h2 {
   color: rgba(255, 255, 255, 0.6);
   margin-bottom: 50px;
-  font-size: 24px;
+  font-size: 10px;
 }
 
 #hero .btn-get-started {
@@ -519,7 +519,7 @@ section {
 }
 
 .section-title h2 {
-  font-size: 100px;
+  font-size: 80px;
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 20px;
@@ -921,13 +921,13 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url("../img/ATL1.jpg") fixed center center;
+  background: url("../img/pesona-bali.jpg") fixed center center;
   background-size: cover;
   padding: 120px 0;
 }
 
 .cta h3 {
-  color: #fff;
+  color: #ffffff;
   font-size: 28px;
   font-weight: 700;
 }
@@ -946,8 +946,8 @@ section {
   border-radius: 50px;
   transition: 0.5s;
   margin: 10px;
-  border: 2px solid #fff;
-  color: #fff;
+  border: 2px solid #ffffff;
+  color: #ffffff;
 }
 
 .cta .cta-btn:hover {
@@ -1081,7 +1081,7 @@ section {
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
-  background-color: #fff;
+  background-color: #ffffff;
   opacity: 1;
   border: 1px solid #47b2e4;
 }
@@ -1159,9 +1159,9 @@ section {
 }
 
 .team .member h4 {
-  font-weight: 700;
+  font-weight: 600;
   margin-bottom: 5px;
-  font-size: 20px;
+  font-size: 30px;
   color: #37517e;
 }
 
@@ -1266,6 +1266,10 @@ section {
   display: block;
 }
 
+.pricing p {
+  font-size: 22px;
+}
+
 .pricing ul {
   padding: 20px 0;
   list-style: none;
@@ -1348,89 +1352,6 @@ section {
   .pricing .box {
     max-width: 100%;
     margin: 0 auto 30px auto;
-  }
-}
-
-/*--------------------------------------------------------------
-# Frequently Asked Questions
---------------------------------------------------------------*/
-.faq .faq-list {
-  padding: 0 100px;
-}
-
-.faq .faq-list ul {
-  padding: 0;
-  list-style: none;
-}
-
-.faq .faq-list li+li {
-  margin-top: 15px;
-}
-
-.faq .faq-list li {
-  padding: 20px;
-  background: #fff;
-  border-radius: 4px;
-  position: relative;
-}
-
-.faq .faq-list a {
-  display: block;
-  position: relative;
-  font-family: "Poppins", sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 500;
-  padding: 0 30px;
-  outline: none;
-  cursor: pointer;
-}
-
-.faq .faq-list .icon-help {
-  font-size: 24px;
-  position: absolute;
-  right: 0;
-  left: 20px;
-  color: #47b2e4;
-}
-
-.faq .faq-list .icon-show,
-.faq .faq-list .icon-close {
-  font-size: 24px;
-  position: absolute;
-  right: 0;
-  top: 0;
-}
-
-.faq .faq-list p {
-  margin-bottom: 0;
-  padding: 10px 0 0 0;
-}
-
-.faq .faq-list .icon-show {
-  display: none;
-}
-
-.faq .faq-list a.collapsed {
-  color: #37517e;
-  transition: 0.3s;
-}
-
-.faq .faq-list a.collapsed:hover {
-  color: #47b2e4;
-}
-
-.faq .faq-list a.collapsed .icon-show {
-  display: inline-block;
-}
-
-.faq .faq-list a.collapsed .icon-close {
-  display: none;
-}
-
-@media (max-width: 1200px) {
-  .faq .faq-list {
-    padding: 0;
   }
 }
 
